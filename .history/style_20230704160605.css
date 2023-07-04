@@ -1,0 +1,156 @@
+* {
+  text-decoration: none;
+  font-family: 'poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background: #090909;
+  font-family: calibri;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 65px;
+  width: auto;
+  float: left;
+}
+
+.left {
+  display: inline-block;
+  padding: 20px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+.small {
+  font-size: 10px;
+  color: #cccc;
+}
+
+button:first-of-type {
+  background-color: red;
+}
+
+button:last-of-type {
+  background-color: yellow;
+}
+
+button {
+  margin-left: 7px;
+  padding: 9px;
+  width: 90px;
+  color: #ffffff !important;
+}
+
+header {
+  background-image: url('./assets/people-together.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  background-position: 100%;
+}
+
+.h1 {
+  font-size: 5em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: -90px;
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 12%;
+  color: #FFFFFF
+}
+
+.section2 {
+  background-color: #F6F5F2;
+  text-align: center;
+  padding: 80px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.item {
+  border-radius: 50%;
+  margin: 40px;
+}
+
+hr {
+  width: 10%;
+  position: absolute;
+  left: 45%;
+  margin-bottom: 90px;
+}
+
+.firstp {
+  margin-top: 20px;
+  font-size: 30px;
+  
+}
+
+.firstp
+span {
+  font-size: 18px;
+}
+
+.food {
+  color: #B71234;
+}
+
+.climate {
+  color: #D55C19;
+}
+
+.fresh {
+  color: #00675A;
+}
+
+.wild {
+  color: #53284F;
+}
+
+.forest {
+  color: #55601C;
+}
+
+.oceans {
+  color: #063DAF;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 90px;
+}
+
+.lep {
+  border-radius: 5%;
+  padding-right: 2px;
+}

@@ -1,0 +1,23 @@
+* {
+  text-decoration: none;
+}
+
+.navbar {
+  background: #090909;
+  font-family: calibri;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 70px;
+    width: auto;
+    float: left;
+    margin: 5px 0;
+}

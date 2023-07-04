@@ -1,0 +1,42 @@
+* {
+  text-decoration: none;
+}
+
+.navbar {
+  background: #090909;
+  font-family: calibri;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+  float: left;
+}
+
+.left {
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+button a .donate {
+  background-color: yellow;
+}

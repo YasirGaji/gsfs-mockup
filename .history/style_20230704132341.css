@@ -1,0 +1,34 @@
+* {
+  text-decoration: none;
+}
+
+.navbar {
+  background: #090909;
+  font-family: calibri;
+  
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+  float: left;
+  margin: 5px 0;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
